@@ -1,0 +1,30 @@
+{% extends 'main/base.html' %}
+
+
+{% block content %}
+
+
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="text-center">Register Account</h3>
+                <form action="" method="POST">
+                    {% csrf_token %}
+                  
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter your username" class="form-control" name="username">
+                    
+
+                    <label for="username">Password</label>
+                    <input type="password" placeholder="Enter your password" class="form-control" name="password">
+                    <br>
+                    <input type="submit" value="login" class = "btn btn-danger">
+                </form>
+        
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
