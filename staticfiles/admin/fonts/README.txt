@@ -1,2 +1,1 @@
-Roboto webfont source: https://www.google.com/fonts/specimen/Roboto
-Weights used in this project: Light (300), Regular (400), Bold (700)
+This website is for movie rating and movie reviews. In this user can give their reviews on the films  
